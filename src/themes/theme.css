@@ -2,9 +2,11 @@
 @import 'tw-animate-css';
 @import './helpers.css';
 
-/* The root is dark and `.light` scopes invert it, so `dark:` tracks that, not the OS.
+/* The root is light and `.dark` scopes invert it, so `dark:` tracks that, not the OS.
    Left at its tailwind default the variant compiles to `prefers-color-scheme`, a switch
-   this site never sets: every `dark:` utility would key off the visitor's system setting. */
+   this site never sets: every `dark:` utility would key off the visitor's system setting.
+   A project that inverts this (a dark root with `.light` scopes) flips the variant with
+   it: `@custom-variant dark (&:not(.light):not(.light *))`. */
 @custom-variant dark (&:is(.dark, .dark *));
 
 /* global overrides */
