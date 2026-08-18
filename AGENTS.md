@@ -1,4 +1,4 @@
-# CLAUDE.md
+# Agent Instructions
 
 Guidance for AI coding agents working in this repository: boilerplate-web, the starting point for a new Next.js app. This file does not restate project details; it points at the canonical docs, which drive the implementation.
 
