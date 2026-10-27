@@ -58,4 +58,4 @@ Docs drive the implementation, read in numbered order: the rules (vendored as sk
 
 ## Other
 
-For AI-agent orientation, see [CLAUDE.md](CLAUDE.md) (CLAUDE.md symlinks to it).
+For AI-agent orientation, see [AGENTS.md](AGENTS.md).

@@ -43,7 +43,7 @@ The folder layout follows the Next.js folder-structure standard:
 
 ```text
 .
-├── CLAUDE.md            # agent orientation (CLAUDE.md symlinks here)
+├── AGENTS.md            # agent orientation
 ├── README.md            # human orientation
 ├── src/                 # nextjs application code
 ├── public/              # nextjs static assets
